@@ -1,0 +1,9 @@
+{
+    "scripts": {
+        "test:chrome": "cypress run --browser chrome --no-exit",
+        "test:firefox": "cypress run --browser firefox --no-exit"
+    },
+    "cypress-cucumber-preprocessor": {
+        "step_definitions": "cypress/support/steps"
+    }
+}
