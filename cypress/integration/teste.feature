@@ -1,6 +1,6 @@
-Feature: Automatizar Site Teste
+Feature: Automatizar Site Demo Automation
 
-    Scenario: Validar Botão Submit
+    Scenario: Preencher todos os campos com sucesso
         Given que acesso o site
-        When seleciono o botão submit
+        When preencho todos os campos
         Then encerro meu teste
